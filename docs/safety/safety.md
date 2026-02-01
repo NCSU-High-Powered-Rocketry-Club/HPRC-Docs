@@ -13,5 +13,3 @@ This page provides information about safety protocols, guidelines, and best prac
 - Follow evacuation procedures as directed.
 
 ---
-
-*Add more safety-related content as needed.*

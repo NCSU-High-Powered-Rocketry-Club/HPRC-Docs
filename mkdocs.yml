@@ -1,5 +1,5 @@
 site_name: HPRC Documentation
-site_url: https://docs.ncsurocketry.org/
+site_url: https://wiki.ncsurocketry.org/
 
 docs_dir: docs
 
@@ -15,8 +15,41 @@ theme:
 
 nav:
   - Home: index.md
-  - Safety: safety.md
-  - Recovery: recovery.md
+  - Rocketry 101:
+      - Getting Started: rocketry-101/getting-started.md
+      - Recovery: rocketry-101/deployment.md
+      - Stability: rocketry-101/stability.md
+      - Motors: rocketry-101/motors.md
+      - Certifications: 
+          - Overview: rocketry-101/certs/certifications.md
+          - Level 1: rocketry-101/certs/level-1.md
+          - Level 2: rocketry-101/certs/level-2.md
+          - Level 3: rocketry-101/certs/level-3.md
+  - Safety:
+      - Safety Overview: safety/safety.md
+      - Ejection Testing: safety/ejection-testing.md
+  - Recovery:
+      - Altimeters: 
+          - Overview: recovery/altimeters.md
+          - Guides:
+              - Stratologger: recovery/altimeters/use/stratologger.md          
+              - Fluctus: recovery/altimeters/use/fluctus.md
+              - EasyMini: recovery/altimeters/use/easymini.md
+              - MissleWorks:
+                  - RRC3 Sport: recovery/altimeters/use/missleworks/rrc3.md
+                  - RRC2+: recovery/altimeters/use/missleworks/rrc2.md
+              - Eggtimers:
+                  - Quasar: recovery/altimeters/use/eggtimers/quasar.md
+                  - Quantum: recovery/altimeters/use/eggtimers/quantum.md
+                  - Quark: recovery/altimeters/use/eggtimers/quark.md
+          - Altimeter Testing: recovery/altimeters/testing.md
+      - Tracking:
+          - Overview: recovery/tracking.md
+          - GPS Trackers: recovery/tracking/gps-trackers.md
+          - RF Trackers: recovery/tracking/rf-trackers.md
+      - Deployment: recovery/deployment.md          
+  - Vehicle:
+      - Composites: composites.md
 
 extra_css:
   - extra.css
