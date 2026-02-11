@@ -1,5 +1,5 @@
-site_name: HPRC Documentation
-site_url: https://wiki.ncsurocketry.org/
+site_name: HPRC Wiki
+site_url: https://docs.ncsurocketry.org/
 
 docs_dir: docs
 
@@ -25,12 +25,15 @@ nav:
           - Level 1: rocketry-101/certs/level-1.md
           - Level 2: rocketry-101/certs/level-2.md
           - Level 3: rocketry-101/certs/level-3.md
+      - Simulations: rocketry-101/simulations.md
+      - Staging: rocketry-101/staging.md
+      - Aerodynamics: rocketry-101/aerodynamics.md
   - Safety:
       - Safety Overview: safety/safety.md
       - Ejection Testing: safety/ejection-testing.md
   - Recovery:
       - Altimeters: 
-          - Overview: recovery/altimeters.md
+          - Overview: recovery/altimeters/altimeters.md
           - Guides:
               - Stratologger: recovery/altimeters/use/stratologger.md          
               - Fluctus: recovery/altimeters/use/fluctus.md
@@ -49,7 +52,18 @@ nav:
           - RF Trackers: recovery/tracking/rf-trackers.md
       - Deployment: recovery/deployment.md          
   - Vehicle:
-      - Composites: composites.md
+    - Composites: composites.md
+  - Payload:
+    - Past Payloads: payload/payload.md
+    - Raspberry Pi: payload/raspberry-pi.md
+    - Cameras: payload/cameras.md
+  - The Lab:
+    - About The Lab: lab/lab.md
+    - Tool Safety: lab/tools.md
+    - 3D Printing: lab/3d-printing.md
+    - Soldering: lab/soldering.md
+    - Hazard Storage and Disposal: lab/hazard-storage.md
+      
 
 extra_css:
   - extra.css
