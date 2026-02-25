@@ -52,7 +52,9 @@ nav:
           - RF Trackers: recovery/tracking/rf-trackers.md
       - Deployment: recovery/deployment.md          
   - Vehicle:
-    - Composites: composites.md
+    - Materials: vehicle/materials.md
+    - Bulkheads: vehicle/bulkheads.md
+    - Composites: vehicle/composites.md
   - Payload:
     - Past Payloads: payload/payload.md
     - Raspberry Pi: payload/raspberry-pi.md
@@ -63,6 +65,7 @@ nav:
     - 3D Printing: lab/3d-printing.md
     - Soldering: lab/soldering.md
     - Hazard Storage and Disposal: lab/hazard-storage.md
+  - External Resources: external-resources.md
       
 
 extra_css:

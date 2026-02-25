@@ -9,8 +9,11 @@ The standard deployment mechanism utilized by the club.
 ## Single-Step Dual-Deploy
 Employs the use of a chute release (Jolly Logic) or cable cutters (Cat Claws)
 
-## Head-End Dual-Deploy
+## Head-End Deployment
 Parachute is in nosecone
+
+### Head-End Dual-Deploy
+Parachute in fin-can and nosecone
 
 ## Motor Ejection
 No electronics necessary, delay grain drilling
