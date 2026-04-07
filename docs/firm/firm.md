@@ -7,7 +7,7 @@ FIRM (Filtered Inertial Rotation Module) is HPRC's custom flight computer, with 
 FIRM solves a handful of issues that the club has experienced for a while, as well as providing unique benefits:
 
 ### 1. Cost
-A large reason is cost and replacability. The data collection sensor that the Airbrakes system used prior to FIRM costed $1400, and due to the chaotic nature of rockets, there is always a chance of a failure during launch that could break it. FIRM currently costs around $75 per board to produce, so we typically order 5 boards at once so we don't lose sleep over potentially damaging/frying a board.
+A large reason is cost and replacability. The data collection sensor that the Airbrakes system used prior to FIRM cost $1400, and due to the chaotic nature of rockets, there is always a chance of a failure during launch that could break it. FIRM currently costs around $75 per board to produce, so we typically order 5 boards at once so we don't lose sleep over potentially damaging/frying a board.
 
 ### 2. Ease of Use
 Every year the payload in the rocket uses some form of sensing technology. You need to know when the rocket has launched, you might need to know when apogee is reached, or maybe the payload must achieve some task once it lands. Before FIRM, a non-negligible amount of time was spent researching how to accomplish these tasks, figuring out how to interface with sensors, and troubleshooting (or frying) these delicate electronics. FIRM strives to be an all-in-one solution to these reoccuring headaches, allowing the payload and Airbrakes team to focus on what actually matters.
