@@ -1,6 +1,6 @@
 # FIRM v1.0
 
-This was the first PCB iteration of FIRM, finalized and ordered on February 6, 2026.
+This was the second PCB iteration of FIRM, finalized and ordered on February 6, 2026.
 
 [Add pic here]
 

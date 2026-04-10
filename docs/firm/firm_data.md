@@ -5,13 +5,13 @@ What data does FIRM collect, anyway? Why is the data important? What does the da
 ## Pressure
 Pressure is the foundation of rocketry data and provides one of the most reliable estimates of current altitude. Pressure is measured with a **barometer**; when referring to a dedicated device for altitude calculation, it is often called an **altimeter**. Atmospheric pressure decreases as height above sea level increases, according to the following equation:
 $$altitude = 145366.45\left[1-\left(\frac{Pressure}{101325}\right)^{0.190284}\right]$$
-- Where $altitude$ is in meters and $Pressure$ is in Pascals.
+- Where $altitude$ is in feet and $Pressure$ is in Pascals.
 
 To properly record pressure, air must be able to reach the barometer during flight. Typically, pressure port holes are drilled into the rocket airframe so that the pressure inside the compartment containing the barometer can equalize with the pressure outside the rocket.
 
 
 ## Acceleration
-Acceleration is the change in velocity over time. It tells you how fast you are speeding up, slowing down, or changing direction. Flight computers measure acceleration with an **accelerometer** and typically output the value in g's (acceleration due to gravity, $9.81 m/s^2$). Accelerometers also measure the acceleration due to gravity, so when sitting flat on a table, you would expect an output of $1g$. Accelerometers typically output data in the X, Y, and Z directions.
+Acceleration is the change in velocity over time. It tells you how fast you are speeding up, slowing down, or changing direction. Flight controllers measure acceleration with an **accelerometer** and typically output the value in g's (acceleration due to gravity, $9.81 m/s^2$). Accelerometers also measure the acceleration due to gravity, so when sitting flat on a table, you would expect an output of $1g$. Accelerometers typically output data in the X, Y, and Z directions.
 
 Acceleration is arguably the most useful and versatile metric because it can tell different stories depending on how you analyze it. Here are a few ways to interpret and use acceleration:
 - Integrating acceleration over time gives velocity.

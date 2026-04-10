@@ -1,6 +1,6 @@
 # What is FIRM?
 
-FIRM (Filtered Inertial Rotation Module) is HPRC's custom flight computer, with the main purpose of providing real-time flight data to the Airbrakes system and the payload. The idea for FIRM began at the end of the 2024-2025 academic year, and development began during the summer.
+FIRM (Filtered Inertial Rotation Module) is HPRC's custom [flight controller](flight_controllers_and_computers.md), with the main purpose of providing real-time [flight data](firm_data.md) to the Airbrakes system and the payload. The idea for FIRM began at the end of the 2024-2025 academic year, and development began during the summer.
 
 # Why FIRM?
 
