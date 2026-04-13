@@ -578,7 +578,7 @@ You can always apply more flux if the solder isn't flowing well. There is almost
 
 ### Heat set inserts
 
-When soldering heat set inserts into 3D printed parts, use a very low temperature, and try to use a "throw away" soldering iron, since heat set inserts have damaged the tips previously before. Apply light pressure and heat the insert until it can be pressed into the hole. This can take a few seconds per insert.
+When soldering heat set inserts into 3D printed parts, use a very low temperature, and try to use a "throw away" soldering iron, since heat set inserts have damaged the tips previously. Apply light pressure and heat the insert until it can be pressed into the hole. This can take a few seconds per insert.
 
 ---
 

@@ -8,6 +8,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.indexes
+    - navigation.footer
     - content.code.copy
     - content.action.edit
     - search.suggest
@@ -83,6 +84,10 @@ extra_css:
 plugins:
   - glightbox
   - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+  - git-authors
 
 markdown_extensions:
   - attr_list
