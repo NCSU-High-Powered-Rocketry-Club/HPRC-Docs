@@ -394,7 +394,7 @@ For components like [QFNs](https://en.wikipedia.org/wiki/Flat_no-leads_package) 
     
     !!! Note
         - You should use a slightly higher temperature, around 300C for leaded solder, and about 330C for unleaded solder.
-        - If your solder coat on the pad was too much, you will find that the component does not sit flat on the surface. See this [tip]() to resolve that.
+        - If your solder coat on the pad was too much, you will find that the component does not sit flat on the surface. See this [tip](#pick-up-solder) to resolve that.
     
 #### Soldering a whole PCB at once
 
@@ -458,7 +458,7 @@ Joining two wires creates a secure electrical connection, often for repairs or e
 **Optional:**
 
 - [Flux](#flux)
-- [Heat-Shrink Tubing](#heat-shrink-tubing)
+- [Heat-Shrink Tubing](https://en.wikipedia.org/wiki/Heat-shrink_tubing)
 - [Helping hands](#helping-hands) or [vise](#vise)
 
 === "Stranded Wires"
@@ -551,3 +551,32 @@ When to use:
 If you have a row of pins that are soldered together (i.e. header rows) or a component with many pins, you cannot reliably use a solder wick or solder sucker to desolder, since the other pad or pin would cool down after the soldering iron is moved away from it.
 
 In this case, you can use a [hot air rework station](#hot-air-rework-station) to heat the area around the pins until the solder melts, and then you can pull the component out with [tweezers](#tweezers).
+
+---
+
+## Soldering Tips
+
+### Pick up solder
+
+Instead of holding the solder wire in your hand, you can put some solder directly on tip of the soldering iron. This allows for better control and precision when applying solder to small joints or SMD pads and also frees up your other hand to hold tweezers.
+
+!!! Caution
+    If you take too long to apply the solder after picking it up with the iron, the solder may quickly oxidize and harden. If this happens, you can simply wipe the tip on [brass wool](#brass-wool) to remove the oxidized solder and pick up fresh solder again.
+
+!!! Danger
+    Be careful not to apply too much solder on the tip, as it can create large blobs that are difficult to control and may fall down, likely burning you.
+    
+### Cutting solder wick
+
+If you don't cut the solder wick from the roll, the excess wick can act as a heat sink and prevent the wick from heating up properly, which can make it less effective at absorbing solder. Always cut a small piece of wick for each use to ensure optimal performance.
+
+### Abundance of flux
+
+You can always apply more flux if the solder isn't flowing well. There is almost no such thing as "too much flux" when it comes to soldering, since the excess flux can be cleaned off with isopropyl alcohol after soldering. So if you're having trouble getting the solder to flow, just apply more flux and it should help.
+
+!!! Note
+    If using more flux is still not working, consider the possibility that the soldering iron tip is oxidized and not transferring heat properly. In this case, you can use [tip tinner](#tip-tinner) to restore the tip's performance.
+
+### Heat set inserts
+
+When soldering heat set inserts into 3D printed parts, use a very low temperature, and try to use a "throw away" soldering iron, since heat set inserts have damaged the tips previously before. Apply light pressure and heat the insert until it can be pressed into the hole. This can take a few seconds per insert.
