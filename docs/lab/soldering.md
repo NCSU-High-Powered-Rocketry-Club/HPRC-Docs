@@ -475,6 +475,79 @@ Joining two wires creates a secure electrical connection, often for repairs or e
 2. Pass the wires through heat-shrink tubing: If you plan to use heat-shrink tubing for insulation, make sure to slide it onto one of the wires before twisting and soldering.
 3. Clamp: Use [helping hands](#helping-hands) or a [vise](#vise) to hold the wires in place while soldering.
 4. Twist or place on top each other: Either way is fine, but make sure the wires are in good contact with each other to ensure a strong solder joint.
+
+    ![How to twist wires](pictures/soldering/how_to_twist_wires.jpg){ width="60%" loading="lazy" }
+
 5. Apply flux: Dab [flux](#flux) on the twisted wires to improve flow.
+
 6. Apply solder: Use the soldering iron and solder on the joint until it flows into the twists.
 
+!!! Tip
+    You can also use a soldering iron to pre-tin (i.e. apply a thin layer of solder to) the wires before twisting them together. This can help to ensure a stronger joint and make the soldering process easier.
+
+---
+
+## How to Desolder
+
+Desoldering is the process of removing solder to disconnect components, fix mistakes, or salvage parts. There are two main tools for desoldering: the [solder wick](#solder-wick) and the [solder sucker](#solder-sucker). Each has its strengths, and the choice depends on the situation.
+
+### Using a Solder Wick
+
+A [solder wick](#solder-wick) is a braided copper wire that absorbs molten solder through capillary action. It is ideal for cleaning pads, removing excess solder, or desoldering small joints.
+
+**Required:**
+
+- [Solder Wick](#solder-wick)
+- [Soldering Iron](#soldering-iron)
+- [Flux](#flux)
+- [Tweezers](#tweezers)
+
+**Steps:**
+
+1. **Prepare the wick**: Cut a fresh section of the wick and place it over the solder you want to remove.
+2. **Add flux**: Apply a small amount of [flux](#flux) to the wick to improve heat transfer and solder absorption.
+3. **Heat the wick**: Press the tip of the heated [soldering iron](#soldering-iron) onto the wick. The heat will transfer through the wick to melt the solder underneath.
+
+    !!! Tip
+        Using a larger tip on the soldering iron is highly recommended.
+
+4. **Absorb the solder**: As the solder melts, it will be drawn into the wick. Move the wick slowly with tweezers to cover the entire joint.
+5. **Remove**: Lift the wick and iron together, then cut off the used portion of the wick.
+
+When to use:
+
+- Cleaning pads for rework or component replacement.
+- Removing bridges between fine-pitch pins.
+
+### Using a Solder Sucker
+
+A [solder sucker](#solder-sucker) is a handheld vacuum pump that removes molten solder by suction. It is best for through-hole components or large solder blobs.
+
+**Required:**
+
+- [Solder Sucker](#solder-sucker)
+- [Soldering Iron](#soldering-iron)
+
+**Optional:**
+
+- [Flux](#flux)
+- [Tweezers](#tweezers)
+
+**Steps:**
+
+1. **Prepare the joint**: Heat the solder joint with the [soldering iron](#soldering-iron) until the solder is fully molten.
+2. **Position the sucker**: Place the nozzle of the [solder sucker](#solder-sucker) directly over the molten solder.
+3. **Activate suction**: Press the release button to create suction and pull the solder into the sucker.
+4. **Repeat if necessary**: For stubborn joints, reapply heat and suction until the solder is fully removed.
+5. **Pull the component**: If desoldering a through-hole component, you may need to gently pull it out using tweezers. In this case, you don't need to remove all the solder, just enough to free the component.
+
+When to use:
+
+- Removing solder from through-hole joints.
+- Clearing large amounts of solder quickly.
+
+### Using a Hot Air Rework Station
+
+If you have a row of pins that are soldered together (i.e. header rows) or a component with many pins, you cannot reliably use a solder wick or solder sucker to desolder, since the other pad or pin would cool down after the soldering iron is moved away from it.
+
+In this case, you can use a [hot air rework station](#hot-air-rework-station) to heat the area around the pins until the solder melts, and then you can pull the component out with [tweezers](#tweezers).
