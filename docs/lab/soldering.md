@@ -48,12 +48,6 @@ A thick paste used for soldering surface mount devices (SMDs). Usually at a much
 
 </div>
 
-When should you use what solder? It depends on the application. 
-
-For general-purpose soldering, a thicker solder (like 0.8 mm) can be easier to work with and provides stronger joints. 
-
-Solder paste is typically used for surface mount devices (SMDs) and requires specialized equipment for reflow soldering, such as a [reflow oven]() or a [hot air rework station](#hot-air-rework-station).
-
 The choice between leaded and unleaded solder depends on personal preference. It is much easier to work with leaded solder since it has a lower melting point and better flow characteristics. 
 
 !!! warning "Lead Safety"
@@ -78,6 +72,11 @@ We have 2 good soldering irons in the lab:
     Compact, portable, and USB-C powered (needs a good 35W+ PD cable).
 
 </div>
+
+**Temperature Settings:**
+
+- For leaded solder, set the temperature to around 280-310°C.
+- For unleaded solder, set the temperature to around 320-350°C.
 
 ### Flux
 
@@ -560,7 +559,7 @@ In this case, you can use a [hot air rework station](#hot-air-rework-station) to
 
 Instead of holding the solder wire in your hand, you can put some solder directly on tip of the soldering iron. This allows for better control and precision when applying solder to small joints or SMD pads and also frees up your other hand to hold tweezers.
 
-!!! Caution
+!!! Warning
     If you take too long to apply the solder after picking it up with the iron, the solder may quickly oxidize and harden. If this happens, you can simply wipe the tip on [brass wool](#brass-wool) to remove the oxidized solder and pick up fresh solder again.
 
 !!! Danger
@@ -580,3 +579,15 @@ You can always apply more flux if the solder isn't flowing well. There is almost
 ### Heat set inserts
 
 When soldering heat set inserts into 3D printed parts, use a very low temperature, and try to use a "throw away" soldering iron, since heat set inserts have damaged the tips previously before. Apply light pressure and heat the insert until it can be pressed into the hole. This can take a few seconds per insert.
+
+---
+
+## Soldering Safety
+
+Soldering can be dangerous if proper safety precautions are not followed. Here are some important safety tips to keep in mind:
+
+- Always work in a well-ventilated area and use a [fume extractor](#fume-extractor) to avoid inhaling harmful fumes from solder and flux.
+- Wear safety glasses to protect your eyes from solder splashes and flying debris.
+- Be cautious of the hot soldering iron and molten solder to avoid burns. Always place the soldering iron in its stand when not in use.
+- Wash your hands after handling leaded solder, as lead is toxic. Avoid eating or drinking while soldering to prevent ingestion of harmful substances.
+- Don't wear gloves while soldering, as they can reduce dexterity and increase the risk of accidents. Instead, focus on keeping your workspace clean and organized to minimize hazards.
