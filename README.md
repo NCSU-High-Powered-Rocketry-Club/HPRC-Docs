@@ -2,6 +2,8 @@
 
 This repo is for our team related documentation. It uses Material for MkDocs. You will need Python with uv to work on this (install uv here: https://docs.astral.sh/uv/getting-started/installation/).
 
+You can view docs online at https://docs.ncsurocketry.org/.
+
 ## Getting Started
 
 The docs live under the top-level `docs/` folder and are built using **MkDocs + Material** and managed through **uv**.
