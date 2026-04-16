@@ -60,6 +60,15 @@ nav:
       - Past Payloads: payload/payload.md
       - Raspberry Pi: payload/raspberry-pi.md
       - Cameras: payload/cameras.md
+  - FIRM:
+      - Overview: firm/firm.md
+      - Contributing to FIRM: firm/firm_contributing_overview.md
+      - Data from FIRM: firm/firm_data.md
+      - Flight Controllers and Computers: firm/flight_controllers_and_computers.md
+      - Sensors: firm/sensors.md
+      - Revisions:
+          - FIRM v0.1: firm/revisions/FIRM_v0.1.md
+          - FIRM v1.0: firm/revisions/FIRM_v1.0.md
   - The Lab:
       - About The Lab: lab/lab.md
       - Tool Safety: lab/tools.md
