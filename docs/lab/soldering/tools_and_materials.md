@@ -183,7 +183,7 @@ You apply the tape in areas of a PCB you don't want heated from a [soldering iro
 -  ![Kapton Tape on FIRM](pictures/kapton_tape_on_firm.jpg){ width="40%" loading="lazy" }
 
     **Kapton Tape on FIRM**  
-    Real world use of kapton tape while reworking on a [FIRM]().
+    Real world use of kapton tape while reworking on a [FIRM](../../firm/firm.md).
 </div>
 
 
@@ -191,13 +191,18 @@ You apply the tape in areas of a PCB you don't want heated from a [soldering iro
 
 A hot air rework station uses a heated stream of air to melt [solder](#solder), allowing removal and replacement of surface-mount devices (SMDs), reflowing solder paste, and performing heat-based repairs (e.g., heat-shrink tubing).
 
-TODO: Include pictures of different nozzles
-
 <div class="grid cards" markdown>
 -  ![Hot Air Rework Station](pictures/hot_air_rework_station.jpg){ width="40%" loading="lazy" }
 
     **Hot Air Rework Station**  
     The hot air rework station we have. You can control the temperature and airflow, and use different nozzles as well.
+
+- ![Nozzles](pictures/hot_air_rework_nozzles.jpg){ width="40%" loading="lazy" }
+
+    **Different Nozzles**
+
+    Different nozzles you can attach for the hot air gun. We have small, medium, and large nozzles. You can use different nozzles for different applications.
+
 </div>
 
 ## Reflow Oven
@@ -222,7 +227,7 @@ Miscellaneous tools that can be helpful for soldering include:
 
 <div markdown class="tool-card" id="helping-hands">
 
-## Helping Hands
+### Helping Hands
 
 ![Helping Hands](pictures/helping_hands.jpg){ width="50%" loading="lazy" }
 
@@ -232,7 +237,7 @@ Plate with 4 adjustable arms with alligator clips, used to hold components, wire
 
 <div markdown class="tool-card" id="vise">
 
-## Vise
+### Vise
 
 ![Vise](pictures/vise.jpg){ width="40%" loading="lazy" }
 
@@ -241,7 +246,7 @@ A more heavy-duty option for holding PCBs or components in place while soldering
 
 <div markdown class="tool-card" id="tweezers">
 
-## Tweezers
+### Tweezers
 
 ![Tweezers](pictures/tweezer.jpg){ width="60%" loading="lazy" }
 
@@ -251,7 +256,7 @@ Tweezers are essential for handling small components, especially SMDs. They allo
 
 <div markdown class="tool-card" id="isopropyl-alcohol">
 
-## Isopropyl Alcohol
+### Isopropyl Alcohol
 
 ![Isopropyl Alcohol](pictures/ipa.jpg){ width="40%" loading="lazy" }
 
@@ -261,7 +266,7 @@ Isopropyl alcohol is used for cleaning PCBs and removing flux residue after sold
 
 <div markdown class="tool-card" id="wire-strippers">
 
-## Wire Strippers
+### Wire Strippers
 
 ![Wire Strippers](pictures/wire_strippers.jpg){ width="20%" loading="lazy" }
 
@@ -271,7 +276,7 @@ Wire strippers are used to remove the insulation from wires before soldering the
 
 <div markdown class="tool-card" id="brass-wool">
 
-## Brass Wool
+### Brass Wool
 
 ![Brass Wool](pictures/brass_wool.jpg){ width="40%" loading="lazy" }
 
@@ -281,7 +286,7 @@ Brass wool is used for cleaning soldering iron tips. It removes the oxidation la
 
 <div markdown class="tool-card" id="microscope">
 
-## Microscope
+### Microscope
 
 ![Microscope](pictures/microscope.jpg){ width="25%" loading="lazy" }
 
@@ -291,11 +296,21 @@ This microscope goes up to 1000x magnification. Focus is controlled by the knob 
 
 <div markdown class="tool-card" id="soldering-mat">
 
-## Soldering Mat
+### Soldering Mat
 
 ![Soldering Mat](pictures/soldering_mat.jpg){ width="40%" loading="lazy" }
 
 A soldering mat is a heat-resistant surface that provides a safe and organized workspace for soldering. We have 2 mats. The Digikey mat is preferred since it is made of silicone.
+
+</div>
+
+<div markdown class="tool-card" id="brushes">
+
+### Brushes
+
+![Brushes](pictures/brushes.jpg){ width="30%" loading="lazy" }
+
+Use this brush along with [IPA](#isopropyl-alcohol) to clean your wires or PCB.
 
 </div>
 
