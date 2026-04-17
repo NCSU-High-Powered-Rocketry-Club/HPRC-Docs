@@ -42,24 +42,25 @@ jobs:
       - name: Install docs dependencies
         run: uv sync --frozen
 
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
       - name: Build MkDocs site
         run: uv run mkdocs build --clean --site-dir site
 
-      - name: Deploy to gh-pages
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          branch: gh-pages
-          folder: site
-          clean: true
+          path: site
 
-  # Deployment job (was used when we didn't have feature to deploy branches as well)
-  # deploy:
-  #   environment:
-  #     name: github-pages
-  #     url: ${{ steps.deployment.outputs.page_url }}
-  #   runs-on: ubuntu-latest
-  #   needs: build
-  #   steps:
-  #     - name: Deploy to GitHub Pages
-  #       id: deployment
-  #       uses: actions/deploy-pages@v4
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
