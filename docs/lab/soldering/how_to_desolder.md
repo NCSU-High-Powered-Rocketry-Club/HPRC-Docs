@@ -2,7 +2,7 @@
 
 Desoldering is the process of removing solder to disconnect components, fix mistakes, or salvage parts. There are two main tools for desoldering: the [solder wick](tools_and_materials.md#solder-wick) and the [solder sucker](tools_and_materials.md#solder-sucker). Each has its strengths, and the choice depends on the situation.
 
-### Using a Solder Wick
+## Using a Solder Wick
 
 A [solder wick](tools_and_materials.md#solder-wick) is a braided copper wire that absorbs molten solder through capillary action. It is ideal for cleaning pads, removing excess solder, or desoldering small joints.
 
@@ -30,7 +30,7 @@ When to use:
 - Cleaning pads for rework or component replacement.
 - Removing bridges between fine-pitch pins.
 
-### Using a Solder Sucker
+## Using a Solder Sucker
 
 A [solder sucker](tools_and_materials.md#solder-sucker) is a handheld vacuum pump that removes molten solder by suction. It is best for through-hole components or large solder blobs.
 
@@ -57,7 +57,7 @@ When to use:
 - Removing solder from through-hole joints.
 - Clearing large amounts of solder quickly.
 
-### Using a Hot Air Rework Station
+## Using a Hot Air Rework Station
 
 If you have a row of pins that are soldered together (i.e. header rows) or a component with many pins, you cannot reliably use a solder wick or solder sucker to desolder, since the other pad or pin would cool down after the soldering iron is moved away from it.
 

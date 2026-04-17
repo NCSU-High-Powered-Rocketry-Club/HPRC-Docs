@@ -205,6 +205,10 @@ A hot air rework station uses a heated stream of air to melt [solder](#solder), 
 
 </div>
 
+What temperature should you use? This depends on the type of solder you're working with. You should typically keep the temperature the same as you would keep it for a soldering iron. See the [soldering iron section](#soldering-iron) for recommended temperature settings.
+
+Airflow setting is heavily dependent on the component and surface area you'd like to heat up. For small components, you can use a lower airflow setting to avoid blowing the component away. For larger areas, you can use a higher airflow setting to heat up the area more quickly.
+
 ## Reflow Oven
 
 A reflow oven is a specialized piece of equipment used for soldering surface-mount devices (SMDs) to printed circuit boards (PCBs). It provides precise control over the temperature profile, allowing for consistent and reliable soldering of all components simultaneously.
@@ -311,6 +315,16 @@ A soldering mat is a heat-resistant surface that provides a safe and organized w
 ![Brushes](pictures/brushes.jpg){ width="30%" loading="lazy" }
 
 Use this brush along with [IPA](#isopropyl-alcohol) to clean your wires or PCB.
+
+</div>
+
+<div markdown class="tool-card" id="wire-cutters">
+
+### Wire Cutters
+
+![Wire Cutters](pictures/wire_cutters.jpg){ width="30%" loading="lazy" }
+
+A generic tool used to cut things, like wires.
 
 </div>
 
