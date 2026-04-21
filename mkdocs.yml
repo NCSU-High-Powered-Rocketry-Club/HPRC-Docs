@@ -94,6 +94,9 @@ nav:
           - Soldering Tips: lab/soldering/soldering_tips.md
           - Soldering Safety: lab/soldering/soldering_safety.md
       - Hazard Storage and Disposal: lab/hazard-storage.md
+  - Outreach: 
+      - Overview: outreach/overview.md
+      - Straw Rockets: outreach/events/straw_rockets.md
 
 extra_css:
   - extra.css
