@@ -1,0 +1,29 @@
+# FIRM v1.0
+
+This was the second PCB iteration of FIRM, finalized and ordered on February 6, 2026.
+
+[Add pic here]
+
+## Hardware Overview
+
+The following sections describe the microcontroller, sensors, peripherals, and power components.
+
+### Microcontroller and Related Components
+- Microcontroller: STM32F405RGT6
+- 12 MHz high-speed external crystal
+- 32khz low-speed external crystal
+
+### Sensors
+- IMU: ICM45686
+- Barometer: BMP581
+- Magnetometer: MMC5983MA
+- High-G Accelerometer: ADXL371
+- Voltage/Current Sensor: INA219
+
+### Storage
+- Main logging storage: Micro-SD
+- Device settings storage: W25Q128JV
+
+### Power
+- USB-C or PWR/GND pinouts to supply power
+- MIC5219 voltage regulator (12V, 500mA max)

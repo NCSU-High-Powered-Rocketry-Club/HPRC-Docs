@@ -40,5 +40,44 @@ h6,
 .md-typeset h5,
 .md-typeset h6 {
   font-weight: 600 !important;
-  color: black !important;
+}
+
+
+/* For scrollable cards on the soldering page */
+.card-strip {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(18rem, 22rem);
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  scroll-snap-type: x proximity;
+  -webkit-overflow-scrolling: touch;
+}
+
+.card-strip > .tool-card {
+  scroll-snap-align: start;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.2rem;
+  padding: 1rem;
+  background: var(--md-default-bg-color);
+}
+
+.card-strip > .tool-card > :first-child {
+  margin-top: 0;
+}
+
+.card-strip > .tool-card h1,
+.card-strip > .tool-card h2,
+.card-strip > .tool-card h3,
+.card-strip > .tool-card h4,
+.card-strip > .tool-card h5,
+.card-strip > .tool-card h6 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+}
+
+.card-strip > .tool-card p {
+  margin-top: 0.6rem;
+  margin-bottom: 0;
 }

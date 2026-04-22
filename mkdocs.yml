@@ -1,17 +1,33 @@
 site_name: HPRC Wiki
 site_url: https://docs.ncsurocketry.org/
+repo_url: https://github.com/NCSU-High-Powered-Rocketry-Club/HPRC-Docs
 
 docs_dir: docs
+
+edit_uri: edit/main/docs/
 
 theme:
   name: material
   features:
     - navigation.tabs
     - navigation.indexes
+    - navigation.footer
     - content.code.copy
     - content.action.edit
     - search.suggest
     - search.highlight
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
 nav:
   - Home: index.md
@@ -20,7 +36,7 @@ nav:
       - Recovery: rocketry-101/deployment.md
       - Stability: rocketry-101/stability.md
       - Motors: rocketry-101/motors.md
-      - Certifications: 
+      - Certifications:
           - Overview: rocketry-101/certs/certifications.md
           - Level 1: rocketry-101/certs/level-1.md
           - Level 2: rocketry-101/certs/level-2.md
@@ -32,10 +48,10 @@ nav:
       - Safety Overview: safety/safety.md
       - Ejection Testing: safety/ejection-testing.md
   - Recovery:
-      - Altimeters: 
+      - Altimeters:
           - Overview: recovery/altimeters/altimeters.md
           - Guides:
-              - Stratologger: recovery/altimeters/use/stratologger.md          
+              - Stratologger: recovery/altimeters/use/stratologger.md
               - Fluctus: recovery/altimeters/use/fluctus.md
               - EasyMini: recovery/altimeters/use/easymini.md
               - MissleWorks:
@@ -50,23 +66,54 @@ nav:
           - Overview: recovery/tracking.md
           - GPS Trackers: recovery/tracking/gps-trackers.md
           - RF Trackers: recovery/tracking/rf-trackers.md
-      - Deployment: recovery/deployment.md          
+      - Deployment: recovery/deployment.md
   - Vehicle:
     - Materials: vehicle/materials.md
     - Bulkheads: vehicle/bulkheads.md
     - Composites: vehicle/composites.md
   - Payload:
-    - Past Payloads: payload/payload.md
-    - Raspberry Pi: payload/raspberry-pi.md
-    - Cameras: payload/cameras.md
+      - Past Payloads: payload/payload.md
+      - Raspberry Pi: payload/raspberry-pi.md
+      - Cameras: payload/cameras.md
+  - FIRM:
+      - Overview: firm/firm.md
+      - Contributing to FIRM: firm/firm_contributing_overview.md
+      - Data from FIRM: firm/firm_data.md
+      - Flight Controllers and Computers: firm/flight_controllers_and_computers.md
+      - Sensors: firm/sensors.md
+      - Revisions:
+          - FIRM v0.1: firm/revisions/FIRM_v0.1.md
+          - FIRM v1.0: firm/revisions/FIRM_v1.0.md
   - The Lab:
-    - About The Lab: lab/lab.md
-    - Tool Safety: lab/tools.md
-    - 3D Printing: lab/3d-printing.md
-    - Soldering: lab/soldering.md
-    - Hazard Storage and Disposal: lab/hazard-storage.md
-  - External Resources: external-resources.md
-      
+      - About The Lab: lab/lab.md
+      - Tool Safety: lab/tools.md
+      - 3D Printing: lab/3d-printing.md
+      - Soldering:
+          - Overview: lab/soldering/soldering.md
+          - Tools And Materials: lab/soldering/tools_and_materials.md
+          - How to Solder: lab/soldering/how_to_solder.md
+          - How to Desolder: lab/soldering/how_to_desolder.md
+          - Soldering Tips: lab/soldering/soldering_tips.md
+          - Soldering Safety: lab/soldering/soldering_safety.md
+      - Hazard Storage and Disposal: lab/hazard-storage.md
 
 extra_css:
   - extra.css
+
+plugins:
+  - glightbox
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+  - git-authors
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true

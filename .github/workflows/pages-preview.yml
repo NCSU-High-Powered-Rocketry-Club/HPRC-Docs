@@ -1,16 +1,24 @@
-name: CI
+name: Deploy PR previews
 
 on:
-  push:
-    branches: [main]
   pull_request:
-    branches: [main]
+    types: [opened, reopened, synchronize, closed]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: preview-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
 
 jobs:
-  docs-build:
+  preview:
+    if: github.event.action != 'closed'
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v6
 
       - name: Install uv
@@ -29,3 +37,10 @@ jobs:
 
       - name: Build MkDocs site
         run: uv run mkdocs build --clean --site-dir site
+
+      - name: Deploy preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./site
+          preview-branch: gh-pages
+          umbrella-dir: pr-preview
