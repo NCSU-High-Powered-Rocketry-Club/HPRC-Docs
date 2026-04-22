@@ -15,9 +15,9 @@ There are non-deployment capable altimeters such as the [Jolly Logic AltimeterOn
 Altimeters should always be able to be armed and disarmed from the outside of the rocket. This is done using [switches](#switches).
 
 ### Redundancy
-A common safety practice when using electronic deployment is to use redundant altimeter. This means using a second "backup" altimeter in addition to the primary one to ensure the rocket is still recovered safely in the event of a failure. To have the best redundancy and safeguard against the most failure modes, secondary altimeters should have completely separate batteries, switches, ematches, and charge wells. It is also recommended to use a different brand altimeter as your secondary to further protect against any potential model specific edge cases. This comprehensive redundancy will allow for the primary altimeter to feature any of the following failure modes and the rocket can still have a safe recovery:
+A common safety practice when using electronic deployment is to use redundant altimeter. This means using a second "backup" altimeter in addition to the primary one to ensure the rocket is still recovered safely in the event of a failure. To have the best redundancy and safeguard against the most failure modes, secondary altimeters should have completely separate batteries, switches, ematches, and charge wells. It is also wise to use a larger black powder charge to prevent against a separation failure. Additionally, it is recommended to use two different brands of altimeter as further redundancy protect against any potential model specific edge cases. This comprehensive redundancy will allow for the primary altimeter to feature any of the following failure modes and the rocket can still have a safe recovery:
 
-- Altimeter sensor failure
+- Sensor failure
 - Loss of power or brownout
 - Ematch failing to ignite
 - Wiring failures
@@ -41,7 +41,7 @@ The coolest one. Pull pins use a microswitch and control the state using a physi
 - fingertech
 
 #### Twist and tape
-The tried and true method. This is the simplest switch you can use as it requires no extra hardware. Route the two switch wires to the outside of the rocket through a pressure port. When you are ready to arm, simply twist them together and tape it to the rocket. 
+The tried and true method. This is the simplest switch you can use as it requires no extra hardware. Route the two switch wires to the outside of the rocket through a pressure port. When you are ready to arm, simply twist them together and tape it to the rocket. **NOTE:** make sure you are not covering the pressure port hole, the altimeters still need the outside air.
 Always leave the wires taped to the outside of the rocket so you are still able to disarm.
 
 #### Wifi Switches
@@ -56,4 +56,4 @@ Wifi switches are found on many Eggtimer altimeters and allow for arming of the 
 ---
 
 *Created by Aidan M.*
-*Last Edited by Aidan M. on 2-25-2026*
+*Last Edited by Aidan M. on 2026-02-25*
