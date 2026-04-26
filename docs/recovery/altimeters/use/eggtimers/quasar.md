@@ -28,7 +28,7 @@ Parts needed:
 
 ![An image of the iPhone WiFi menu, with QUASAR_8F6877 circled in red.](../../../../../imgs\recovery\altimeters\use\eggtimers\quasar\QuasarWiFi.jpg)
 
-These characters vary for every Quasar, but the club one should always be the same set of characters, which is listed in the Important Info section of this guide. Select the Quasar and connect to its WiFi, using the password also listed in Important Info.
+These characters vary for every Quasar, but the club one should always be the same set of characters, which is listed in the Important Info section of the guide in the Tacho Lycos admin drive.
 
 3. After connecting to this WiFi, go to your device’s search browser, and search for the ip 192.168.4.1. This should take you to the site for your Quasar’s settings, and you should see the same code as the WiFi shown at the top.
 
@@ -38,7 +38,7 @@ These characters vary for every Quasar, but the club one should always be the sa
 
 5. In addition to programming the charges, you can also view the status of the GPS here. Please refer to the relevant sections if you intend to test the GPS before continuing to step 6.
 
-6. After finishing with the Quasar, disconnect from the Quasar’s WiFi and close the circuit if you are using a switch. If you are no longer using the altimeter, unplug the LiPo from the altimeter. If the LiPo is the one you intend to use on the field, please check that the battery is fully charged or plug the battery into the charger.
+6. After finishing with the Quasar, disconnect from the Quasar’s WiFi and open the circuit if you are using a physical switch. If you are no longer using the altimeter, unplug the LiPo from the altimeter. If the LiPo is the one you intend to use on the field, please check that the battery is fully charged or plug the battery into the charger.
 * If the battery is plugged in, DO NOT leave it unattended. The LiPo should be removed as soon as it is fully charged, do not leave it on the charger.
 
 ## Programming HAM-Capable Quasar
