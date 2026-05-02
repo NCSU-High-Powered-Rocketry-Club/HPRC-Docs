@@ -3,13 +3,15 @@
 This page covers the standard procedure and safety protocols of ground ejection separation testing for high power rockets. Ground testing must be performed before all launches that utilize any form of electronic deployment.
 
 ## Why do we ejection test?
-Ejection testing is necessary to verify proper rocket separation and chute deployment during recovery.
+Ejection testing is necessary to verify proper rocket separation and chute deployment during recovery. 
+
+### Why don't you ejection test for motor ejection?
+There is unfortunately no easy way to ground test recovery separation when using motor ejection. Motor ejection uses a black powder charge activated after motor burnout which is not possible to test without lighting the motor. Luckily motor manufacturers provide a generous amount of black powder which allows for near guaranteed separation on a typical rocket. Being said, it is still recommended to friction fit separating sections when using motor ejection to maximize likelihood of successful separation.
 
 ## Calculate BP Charges
-There are various 
+There are various online calculators for determining black powder charge sizes.
 
 ## Procedure
-
 
 ### Assembly
 
@@ -21,9 +23,11 @@ There are various
 
 
 1. Prepare the recovery system as it would be for flight.
+   - **IMPORTANT** Make sure shock cord is connected
 2. Use appropriate safety precautions and PPE.
 3. Arm the ejection system in a safe environment.
 4. Trigger the ejection charge remotely.
+   - This can be done with a wifi altimeter (e.g. Fluctus or Eggtimer), or by directly lighting the ematch with a battery (from a safe distance)
 5. Observe deployment and document results.
 6. Adjust charge size or configuration as needed.
 
@@ -35,4 +39,4 @@ There are various
 ---
 
 *Created by Aidan M.*
-*Last edited by Aidan M. on 2026-01-31*
+*Last edited by Aidan M. on 2026-04-22*

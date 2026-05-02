@@ -1,5 +1,7 @@
 # Fluctus
 
-Placeholder content for the Fluctus altimeter guide.
+The Silicdyne Fluctus is a newer altimeter option combining a deploymening altimeter and tracker, with a focus on live telemetry capabilities. 
 
-More details to come.
+---
+*Created by Aidan M.*
+*Last edited by Aidan M. on 05-01-2026*

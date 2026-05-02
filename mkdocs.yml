@@ -44,6 +44,8 @@ nav:
       - Simulations: rocketry-101/simulations.md
       - Staging: rocketry-101/staging.md
       - Aerodynamics: rocketry-101/aerodynamics.md
+      - Regulations: rocketry-101/regulations.md
+      - Resources: resources/external-resources.md
   - Safety:
       - Safety Overview: safety/safety.md
       - Ejection Testing: safety/ejection-testing.md
@@ -54,9 +56,9 @@ nav:
               - Stratologger: recovery/altimeters/use/stratologger.md
               - Fluctus: recovery/altimeters/use/fluctus.md
               - EasyMini: recovery/altimeters/use/easymini.md
-              - MissleWorks:
-                  - RRC3 Sport: recovery/altimeters/use/missleworks/rrc3.md
-                  - RRC2+: recovery/altimeters/use/missleworks/rrc2.md
+              - MissileWorks:
+                  - RRC3 Sport: recovery/altimeters/use/missileworks/rrc3.md
+                  - RRC2+: recovery/altimeters/use/missileworks/rrc2.md
               - Eggtimers:
                   - Quasar: recovery/altimeters/use/eggtimers/quasar.md
                   - Quantum: recovery/altimeters/use/eggtimers/quantum.md
@@ -68,7 +70,9 @@ nav:
           - RF Trackers: recovery/tracking/rf-trackers.md
       - Deployment: recovery/deployment.md
   - Vehicle:
-      - Composites: composites.md
+    - Materials: vehicle/materials.md
+    - Bulkheads: vehicle/bulkheads.md
+    - Composites: vehicle/composites.md
   - Payload:
       - Past Payloads: payload/payload.md
       - Raspberry Pi: payload/raspberry-pi.md
