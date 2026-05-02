@@ -45,7 +45,7 @@ The tried and true method. This is the simplest switch you can use as it require
 Always leave the wires taped to the outside of the rocket so you are still able to disarm.
 
 #### Wifi Switches
-Wifi switches are found on many Eggtimer altimeters and allow for arming of the device using your phone. This can be convient however it is still always recommended to use a physical switch as well. The altimeter is still receiving power before it is armed with the wifi switch and thus can be considered a hazard.
+Wifi switches are found on many Eggtimer altimeters and allow for arming of the device using your phone. This can be convient however it is still always recommended to use a physical switch as well. The altimeter is still receiving power before it is armed with the wifi switch and thus can be considered a hazard. Despite this, Tripoli and NAR consider WiFi switches sufficient disarming and do not require a physical. It is up to your personal disgression, but physical switches are always used by the club.
 
 
 
@@ -56,4 +56,4 @@ Wifi switches are found on many Eggtimer altimeters and allow for arming of the 
 ---
 
 *Created by Aidan M.*
-*Last Edited by Aidan M. on 2026-02-25*
+*Last Edited by Aidan M. on 05-01-2026*
