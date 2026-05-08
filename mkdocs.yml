@@ -85,7 +85,10 @@ nav:
   - The Lab:
       - About The Lab: lab/lab.md
       - Tool Safety: lab/tools.md
-      - 3D Printing: lab/3d-printing.md
+      - 3D Printing:
+          - Overview: lab/3d-printing.md
+          - Proper Use: lab/3d-printing/proper-use.md
+          - Slicing: lab/3d-printing/slicing.md
       - Soldering:
           - Overview: lab/soldering/soldering.md
           - Tools And Materials: lab/soldering/tools_and_materials.md
