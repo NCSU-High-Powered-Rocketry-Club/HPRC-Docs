@@ -1,7 +1,56 @@
 :root {
-  --md-primary-fg-color: #d32f2f;
-  --md-primary-fg-color--light: #ff5252;
-  --md-primary-fg-color--dark: #9a0007;
+  --md-primary-fg-color: #cc0000;
+  --md-primary-fg-color--light: #e53935;
+  --md-primary-fg-color--dark: #8f0000;
+  --md-accent-fg-color: #cc0000;
+  --md-accent-fg-color--transparent: rgba(204, 0, 0, 0.1);
+}
+
+[data-md-color-scheme="default"],
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #cc0000;
+  --md-primary-fg-color--light: #e53935;
+  --md-primary-fg-color--dark: #8f0000;
+  --md-accent-fg-color: #cc0000;
+  --md-accent-fg-color--transparent: rgba(204, 0, 0, 0.1);
+}
+
+/* Force header and top nav tabs to red */
+.md-header,
+.md-tabs {
+  background-color: #cc0000 !important;
+}
+
+/* Keep controls and labels readable on red */
+.md-header__button,
+.md-header__title,
+.md-header__topic,
+.md-tabs__link {
+  color: #ffffff !important;
+}
+
+/* Keep search and GitHub content white (without changing their backgrounds) */
+.md-search__button,
+.md-search__button svg,
+.md-search__icon,
+.md-source,
+.md-source__repository,
+.md-source__facts,
+.md-source__fact,
+.md-source__icon {
+  color: #ffffff !important;
+}
+
+/* Keep search icon white, but make the Ctrl+K badge readable */
+.md-search__button::before {
+  color: #ffffff !important;
+  background-color: #ffffff !important;
+}
+
+.md-search__button::after {
+  color: #cc0000 !important;
+  background-color: rgba(255, 255, 255, 0.92) !important;
+  border: 1px solid rgba(255, 255, 255, 0.65) !important;
 }
 
 body,
@@ -14,6 +63,11 @@ body,
 .md-typeset blockquote {
   color: inherit;
   opacity: 0.9;
+}
+
+/* Remove footer */
+.md-footer {
+  display: none !important;
 }
 
 /* Override hover/active/focus states */
