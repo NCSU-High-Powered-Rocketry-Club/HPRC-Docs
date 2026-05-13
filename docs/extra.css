@@ -1,24 +1,31 @@
 :root {
-  --md-primary-fg-color: #cc0000;
-  --md-primary-fg-color--light: #e53935;
-  --md-primary-fg-color--dark: #8f0000;
-  --md-accent-fg-color: #cc0000;
-  --md-accent-fg-color--transparent: rgba(204, 0, 0, 0.1);
+    --md-primary-fg-color: #cc0000;
+    --md-primary-fg-color--light: #e53935;
+    --md-primary-fg-color--dark: #8f0000;
+    --md-accent-fg-color: #cc0000;
+    --md-accent-fg-color--transparent: rgba(204, 0, 0, 0.1);
 }
 
 [data-md-color-scheme="default"],
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #cc0000;
-  --md-primary-fg-color--light: #e53935;
-  --md-primary-fg-color--dark: #8f0000;
-  --md-accent-fg-color: #cc0000;
-  --md-accent-fg-color--transparent: rgba(204, 0, 0, 0.1);
+    --md-primary-fg-color: #cc0000;
+    --md-primary-fg-color--light: #e53935;
+    --md-primary-fg-color--dark: #8f0000;
+    --md-accent-fg-color: #cc0000;
+    --md-accent-fg-color--transparent: rgba(204, 0, 0, 0.1);
 }
 
 /* Force header and top nav tabs to red */
 .md-header,
 .md-tabs {
-  background-color: #cc0000 !important;
+    background-color: #cc0000 !important;
+}
+
+/* Increase top-left logo size */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+    height: 2.3rem !important;
+    width: auto !important;
 }
 
 /* Keep controls and labels readable on red */
@@ -26,7 +33,7 @@
 .md-header__title,
 .md-header__topic,
 .md-tabs__link {
-  color: #ffffff !important;
+    color: #ffffff !important;
 }
 
 /* Keep search and GitHub content white (without changing their backgrounds) */
@@ -38,36 +45,36 @@
 .md-source__facts,
 .md-source__fact,
 .md-source__icon {
-  color: #ffffff !important;
+    color: #ffffff !important;
 }
 
 /* Keep search icon white, but make the Ctrl+K badge readable */
 .md-search__button::before {
-  color: #ffffff !important;
-  background-color: #ffffff !important;
+    color: #ffffff !important;
+    background-color: #ffffff !important;
 }
 
 .md-search__button::after {
-  color: #cc0000 !important;
-  background-color: rgba(255, 255, 255, 0.92) !important;
-  border: 1px solid rgba(255, 255, 255, 0.65) !important;
+    color: #cc0000 !important;
+    background-color: rgba(255, 255, 255, 0.92) !important;
+    border: 1px solid rgba(255, 255, 255, 0.65) !important;
 }
 
 body,
 .md-typeset {
-  font-family:
-    "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "Noto Color Emoji";
+    font-family:
+        "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .md-typeset blockquote {
-  color: inherit;
-  opacity: 0.9;
+    color: inherit;
+    opacity: 0.9;
 }
 
 /* Remove footer */
 .md-footer {
-  display: none !important;
+    display: none !important;
 }
 
 /* Override hover/active/focus states */
@@ -77,7 +84,7 @@ body,
 .md-nav__link--active,
 .md-footer a:hover,
 .md-footer a:focus {
-  color: var(--md-primary-fg-color--light) !important;
+    color: var(--md-primary-fg-color--light) !important;
 }
 
 /* Make ALL headers bold */
@@ -93,32 +100,31 @@ h6,
 .md-typeset h4,
 .md-typeset h5,
 .md-typeset h6 {
-  font-weight: 600 !important;
+    font-weight: 600 !important;
 }
-
 
 /* For scrollable cards on the soldering page */
 .card-strip {
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: minmax(18rem, 22rem);
-  gap: 1rem;
-  overflow-x: auto;
-  padding-bottom: 0.5rem;
-  scroll-snap-type: x proximity;
-  -webkit-overflow-scrolling: touch;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(18rem, 22rem);
+    gap: 1rem;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+    scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
 }
 
 .card-strip > .tool-card {
-  scroll-snap-align: start;
-  border: 1px solid var(--md-default-fg-color--lightest);
-  border-radius: 0.2rem;
-  padding: 1rem;
-  background: var(--md-default-bg-color);
+    scroll-snap-align: start;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 0.2rem;
+    padding: 1rem;
+    background: var(--md-default-bg-color);
 }
 
 .card-strip > .tool-card > :first-child {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 .card-strip > .tool-card h1,
@@ -127,11 +133,11 @@ h6,
 .card-strip > .tool-card h4,
 .card-strip > .tool-card h5,
 .card-strip > .tool-card h6 {
-  margin-top: 0;
-  margin-bottom: 0.6rem;
+    margin-top: 0;
+    margin-bottom: 0.6rem;
 }
 
 .card-strip > .tool-card p {
-  margin-top: 0.6rem;
-  margin-bottom: 0;
+    margin-top: 0.6rem;
+    margin-bottom: 0;
 }
