@@ -1,15 +1,6 @@
 # Safety
 
-This page provides information about safety protocols, guidelines, and best practices.
+Rocketry inherently comes with safety hazards throughout the entire process. Proper guidelines must be followed at all times to reduce risks and ensure you and others remain unharmed.
 
-## General Safety Guidelines
-- Always follow posted safety instructions.
-- Wear appropriate personal protective equipment (PPE).
-- Report unsafe conditions immediately.
-
-## Emergency Procedures
-- Know the location of emergency exits.
-- Familiarize yourself with fire extinguisher locations.
-- Follow evacuation procedures as directed.
-
----
+*Created by Aidan M.*
+*Last Edited by Aidan M. on 05/01/26*
