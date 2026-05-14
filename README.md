@@ -1,12 +1,12 @@
 # HPRC Docs
 
-This repo is for our team related documentation. It uses Material for MkDocs. You will need Python with uv to work on this (install uv here: https://docs.astral.sh/uv/getting-started/installation/).
+This repo is for our team related documentation. It uses Zensical. You will need Python with uv to work on this (install uv here: https://docs.astral.sh/uv/getting-started/installation/).
 
 You can view docs online at https://docs.ncsurocketry.org/.
 
 ## Getting Started
 
-The docs live under the top-level `docs/` folder and are built using **MkDocs + Material** and managed through **uv**.
+The docs live under the top-level `docs/` folder and are built using **Zensical** and managed through **uv**.
 
 ### Install the Python dependencies
 
@@ -17,10 +17,10 @@ uv sync
 ### Run the docs locally
 
 ```bash
-uv run mkdocs serve
+uv run zensical serve
 ```
 
-This launches a local dev server (http://127.0.0.1:8000/docs/) where your changes auto-reload as you edit markdown files.
+This launches a local dev server (http://127.0.0.1:8000/) where your changes auto-reload as you edit markdown files.
 
 ---
 

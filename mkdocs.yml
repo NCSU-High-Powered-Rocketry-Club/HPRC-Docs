@@ -8,6 +8,8 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
+  logo: assets/DocsLogo.png
+  favicon: assets/DocsLogo.png
   features:
     - navigation.tabs
     - navigation.indexes
@@ -16,11 +18,11 @@ theme:
     - content.action.edit
     - search.suggest
     - search.highlight
-  palette: 
+  palette:
     # Palette toggle for light mode
     - scheme: default
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Switch to dark mode
 
     # Palette toggle for dark mode
@@ -31,6 +33,21 @@ theme:
 
 nav:
   - Home: index.md
+  - The Lab:
+      - About The Lab: lab/lab.md
+      - Tool Safety: lab/tools.md
+      - 3D Printing:
+          - Overview: lab/3d-printing.md
+          - Proper Use: lab/3d-printing/proper-use.md
+          - Slicing: lab/3d-printing/slicing.md
+      - Soldering:
+          - Overview: lab/soldering/soldering.md
+          - Tools And Materials: lab/soldering/tools_and_materials.md
+          - How to Solder: lab/soldering/how_to_solder.md
+          - How to Desolder: lab/soldering/how_to_desolder.md
+          - Soldering Tips: lab/soldering/soldering_tips.md
+          - Soldering Safety: lab/soldering/soldering_safety.md
+      - Hazard Storage and Disposal: lab/hazard-storage.md
   - Rocketry 101:
       - Getting Started: rocketry-101/getting-started.md
       - Recovery: rocketry-101/deployment.md
@@ -86,18 +103,6 @@ nav:
       - Revisions:
           - FIRM v0.1: firm/revisions/FIRM_v0.1.md
           - FIRM v1.0: firm/revisions/FIRM_v1.0.md
-  - The Lab:
-      - About The Lab: lab/lab.md
-      - Tool Safety: lab/tools.md
-      - 3D Printing: lab/3d-printing.md
-      - Soldering:
-          - Overview: lab/soldering/soldering.md
-          - Tools And Materials: lab/soldering/tools_and_materials.md
-          - How to Solder: lab/soldering/how_to_solder.md
-          - How to Desolder: lab/soldering/how_to_desolder.md
-          - Soldering Tips: lab/soldering/soldering_tips.md
-          - Soldering Safety: lab/soldering/soldering_safety.md
-      - Hazard Storage and Disposal: lab/hazard-storage.md
 
 extra_css:
   - extra.css
