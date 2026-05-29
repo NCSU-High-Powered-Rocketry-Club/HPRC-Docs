@@ -1,3 +1,8 @@
 # 3D Printing
 
-This page covers 3D printing techniques and best practices for rocket components.
+This section covers day-to-day 3D printing workflow in the lab.
+
+Use the pages in the sidebar:
+
+- [Proper Use](3d-printing/proper-use.md)
+- [Slicing](3d-printing/slicing.md)
