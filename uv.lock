@@ -44,7 +44,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "watchdog", specifier = ">=6.0.0" },
-    { name = "zensical", specifier = "==0.0.33" },
+    { name = "zensical" },
 ]
 
 [[package]]

@@ -6,7 +6,7 @@ You can view docs online at https://docs.ncsurocketry.org/.
 
 ## Getting Started
 
-The docs live under the top-level `docs/` folder and are built using **Zensical** and managed through **uv**.
+The docs live under the top-level `docs/` folder and are built using **[Zensical](https://zensical.org/)** and managed through **[uv](https://docs.astral.sh/uv/)**.
 
 ### Install the Python dependencies
 
@@ -24,4 +24,4 @@ This launches a local dev server (http://127.0.0.1:8000/) where your changes aut
 
 ---
 
-To publish changes to the docs, create a PR and merge it to `main`. Then you can view it at
+To publish changes to the docs, create a PR and merge it to `main`. When creating a PR, the bot will comment a link to view a preview of the docs with your changes. After merging, the docs will be live at [https://docs.ncsurocketry.org/](https://docs.ncsurocketry.org/).

@@ -5,5 +5,5 @@ description = "Documentation for general HPRC activities."
 requires-python = ">=3.11"
 dependencies = [
   "watchdog>=6.0.0",
-  "zensical==0.0.33",
+  "zensical",
 ]

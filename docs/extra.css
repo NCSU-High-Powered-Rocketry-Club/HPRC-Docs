@@ -48,6 +48,10 @@
     color: #ffffff !important;
 }
 
+.md-search__button {
+    background-color: #b80000 !important;
+}
+
 /* Keep search icon white, but make the Ctrl+K badge readable */
 .md-search__button::before {
     color: #ffffff !important;
@@ -72,8 +76,8 @@ body,
     opacity: 0.9;
 }
 
-/* Remove footer */
-.md-footer {
+/* Remove zensical footer */
+.md-footer-meta__inner.md-grid {
     display: none !important;
 }
 
