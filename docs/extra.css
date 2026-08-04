@@ -145,3 +145,9 @@ h6,
     margin-top: 0.6rem;
     margin-bottom: 0;
 }
+
+/* For rounding the corners on images */
+
+img {
+    border-radius: 0.3rem;    
+}

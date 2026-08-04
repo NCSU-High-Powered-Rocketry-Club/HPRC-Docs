@@ -77,6 +77,12 @@ nav = [
     { "Materials" = "vehicle/materials.md" },
     { "Bulkheads" = "vehicle/bulkheads.md" },
     { "Composites" = "vehicle/composites.md" },
+    { "Airbrakes" = [
+        { "Overview" = "vehicle/airbrakes/airbrakes.md" },
+        { "Mechanical Design" = "vehicle/airbrakes/mechanical.md" },
+        { "Electrical Design" = "vehicle/airbrakes/electrical.md" },
+        { "Software Design" = "vehicle/airbrakes/software.md" },
+   ] },
   ]},
   { "Payload" = [
     { "Past Payloads" = "payload/payload.md" },
@@ -146,3 +152,7 @@ permalink = true
 
 [project.markdown_extensions.pymdownx.tabbed]
 alternate_style = true
+
+[project.markdown_extensions.pymdownx.emoji]
+emoji_index = "zensical.extensions.emoji.twemoji" 
+emoji_generator = "zensical.extensions.emoji.to_svg"
