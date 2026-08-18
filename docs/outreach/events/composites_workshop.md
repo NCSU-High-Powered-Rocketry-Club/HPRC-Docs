@@ -19,7 +19,7 @@ To run a composities workshop you will need:
 - Cups (for mixing epoxy, need 1 cup per group)
 - Composite samples
 - Composite sample tester
-- Everything needed from [Presentations](#Presentations)
+- Everything needed from [Presentations](presentations.md)
 
 ## Running the event
 

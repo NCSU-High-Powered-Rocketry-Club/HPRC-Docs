@@ -5,6 +5,7 @@ Another commonly run event are presentations. Presentations are commonly paired 
 ## Items needed
 
 **Required:**
+
 - Laptop
 - Laptop charger
 - HDMI cable
@@ -25,4 +26,4 @@ To run a presentation make sure to bring 2-4 people to the event to help carry r
 - Old payloads
 - Shock cord
 
-While presenting ensure you stop multiple times to allow kids to ask questions. The amount you stop for questions will vary depending on the group of kids and how engaged they are. Try to limit presentations to 20~ minutes or less for elementary and middle schoolers or they will get bored. 
+While presenting ensure you stop multiple times to allow kids to ask questions. The amount you stop for questions will vary depending on the group of kids and how engaged they are. Try to limit presentations to 20~ minutes or less for elementary and middle schoolers. When presenting you will be asked numerous questions ranging in complexitiy. When answering these questions try and keep it at a level that the students can understand. Also ensure you do not lie when answering questions. Our goal is to teach people! Lying does not help with this goal. 

@@ -97,6 +97,9 @@ nav:
   - Outreach: 
       - Overview: outreach/overview.md
       - Straw Rockets: outreach/events/straw_rockets.md
+      - Spaghetti launch stands: outreach/events/spaghetti_launch_stand.md
+      - Presentations: outreach/events/presentations.md
+
 
 extra_css:
   - extra.css

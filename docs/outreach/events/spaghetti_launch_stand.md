@@ -4,7 +4,12 @@ The spaghetti launch stand event is a new event as of 2025 and is always paired 
 
 This event is paired with a [presentation](presentations.md) that can be found the in Outreach Drive. 
 
-../pictures/spaghetti_tower.jpg
+<div class="grid cards" markdown>
+-  ![Spaghetti Launch Stand](../pictures/spaghetti_tower.jpg){ width="60%" loading="lazy" }
+
+    **Spaghetti Tower**  
+    An example of a tower students might build at an event
+</div>
 
 ## Items needed
 
@@ -24,4 +29,5 @@ This event is paired with a [presentation](presentations.md) that can be found t
 
 ## Running the event
 
-This is one of the lengthier events we run and atleast an hour of time is needed to run this event. To run this event give every group of students (normally 2-4) 20 spaghetti Straws and 5 Large Marshmallows. Alow 20 minutes for building and measure their towers whenever they are ready. This event will also often be paired with running straw rockets at the same time
+This is a lengthier event with at least one hour needed to run the event.
+To run this event start by giving a presentation about the club and launch towers before transitioning into the activity. For the activity give every group of students 20 spaghetti Straws and 5 Large Marshmallows. Allow 20 minutes for building and measure their towers whenever they are ready.

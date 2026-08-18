@@ -20,7 +20,7 @@ Bottle rockets is another very fun event we run. This event is most frequently r
 - Tape (for repairs)
 - Access to water
 - Props
-- If presenting: Everything needed from [Presentations](#Presentations)
+- If presenting: Everything needed from [Presentations](presentations.md)
 
 Please note: Not all of these items will always be needed, for example you will not always need a water cooler, table and tablecloth
 
