@@ -79,9 +79,9 @@ nav = [
     { "Composites" = "vehicle/composites.md" },
   ]},
   { "Payload" = [
-    { "Past Payloads" = "payload/payload.md" },
-    { "Raspberry Pi" = "payload/raspberry-pi.md" },
-    { "Cameras" = "payload/cameras.md" },
+    { "Design" = "payload/design.md" },
+    { "Electronics" = "payload/electronics.md" },
+    { "Software" = "payload/software.md" },
   ]},
   { "FIRM" = [
     { "Overview" = "firm/firm.md" },
