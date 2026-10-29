@@ -89,7 +89,7 @@ As mentioned, there are many different propellant types. Below, you'll find a ta
 ## Experimental Motor Making
 After having successfully obtained a Tripoli L2 certification, members are allowed to make experimental and research motors. These motors can be made with a variety of propellants, and include solids, hybrid, and liquid fuels. 
 
-For solids, members have made sugar motors, also known as rocket candy, as well as APCP motors. 
+For solids, TRA members have made sugar motors, also known as rocket candy, as well as APCP motors. 
 
 Both hybrids and liquids are required by the Tripoli Unified Safety Code to use nitrous oxide as the oxidizer. From there, hydrids use some sort of solid fuel, which can even be 3D printing filament. Liquids are required to use either isopropanol, ethanol, or other hydrocarbons containing at least 70% isopropanol or ethanol. The fuel is not permitted to be hypergolic (hypergolics are propellants that will combust spontaneously upon contact) or pyrophoric (any substance that ignites spontaneously upon contact in air below 130 degrees Fahrenheit).
 
