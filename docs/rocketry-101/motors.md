@@ -1,7 +1,5 @@
 # Motors
 
-Content coming soon.
-
 ## Motor Designation
 When looking at a motor designation, you will see a format such as H242T or I245G. This follows a standard where the first letter is the motor class, going from A to O. The motor class is defined based on total impulse. The number defines the average thrust in newtons of the motor. Finally, the letter is the specific propellant used, such as T being Aerotech's Blue Thunder or G being Mojave Green. 
 
@@ -52,3 +50,7 @@ After having successfully obtained a Tripoli L2 certification, members are allow
 For solids, members have made sugar motors, also known as rocket candy, as well as APCP motors. 
 
 Both hybrids and liquids are required by the Tripoli Unified Safety Code to use nitrous oxide as the oxidizer. From there, hydrids use some sort of solid fuel, which can even be 3D printing filament. Liquids are required to use either isopropanol, ethanol, or other hydrocarbons containing at least 70% isopropanol or ethanol. The fuel is not permitted to be hypergolic (hypergolics are propellants that will combust spontaneously upon contact) or pyrophoric (any substance that ignites spontaneously upon contact in air below 130 degrees Fahrenheit).
+
+
+*Created by Mads G.*
+*Last Edited by Mads G. on 10/28/26*

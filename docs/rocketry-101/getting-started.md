@@ -21,3 +21,6 @@ In the very essence, a rocket consists of a motor, airframe, nosecone, and fins.
 As a rocket flies even higher, people will start using so-called dual deploy. In this configuration, the rocket will separate twice, first deploying a smaller parachute at apogee, then later deploying the main parachute, typically at a height of 500-1000 feet. This minimizes the drift distance, the distance the rocket lands from the launch pad.
 
 Typically, smaller rockets will use motor ejection, where a delay grain will fire a black powder charge after a few seconds and let a parachute out. However, for dual deploy, altimeters, small computers with a barometric sensor, are used to fire the two charges. 
+
+*Created by Aidan M.*
+*Last Edited by Mads G. on 10/28/26*
