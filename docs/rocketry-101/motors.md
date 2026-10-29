@@ -19,9 +19,9 @@ Loki Research is a smaller manufacturer producing G to N class motors. They are 
 ### Animal Motor Works
 Animal Motor Works is another smaller manufacturer who focuses on higher impulse motors, producing I to N class motors. 
 
-## Propellants
+## Vendors
 
-
+While motors can typically be purchased directly from the manufacturer, that is not recommended for Aerotech and Cesaroni motors, as there can be high lead times compared to buying from vendors, who only sell what they already have received from the manufacturer. To see the stock levels for a motor across the most reputable vendors, check out [HPR Motor Finder](https://motor.fusionspace.co/).
 
 ## Motor Classes
 
@@ -43,6 +43,48 @@ Animal Motor Works is another smaller manufacturer who focuses on higher impulse
 | N | 10240.01 - 20480.00 | L3 |
 | O | 20480.01 - 40960.00 | L3 |
 
+## Propellants
+
+As mentioned, there are many different propellant types. Below, you'll find a table of some of the more popular propellants.
+
+| Propellant Name | Color | Description | Manufacturer |
+| --------------- | ----- | ----------- | ------------ |
+| White Lightning | White | Bright white flame with some smoke | Aerotech |
+| Mojave Green | Green | Green flame. Can be hard to light | Aerotech |
+| Redline | Red | Red flame with some smoke | Aerotech | 
+| Black Max | Black | Thick black smoke | Aerotech |
+| Blue Thunder | Blue | Blue flame with minimal smoke. Lights very easily | Aerotech |
+| Super Thunder | Violet-Blue | Produces slightly more smoke than Blue Thunder | Aerotech |
+| Warp 9 | Yellow-Orange | High performance propellant with quick burn time | Aerotech |
+| Propellant X | Yellow-White | High impulse propellant | Aerotech |
+| Metalstorm | Yellow-White Sparky | Lots of metal sparks gives a beautiful launch. Check field rules before using | Aerotech |
+| Dark Matter | Black Sparky | Black exhaust with metal sparks. Check field rules before using | Aerotech |
+| Blue Streak | Blue | Blue flame with thin gray smoke | Cesaroni |
+| Classic | Orange | Narrow orange flame with thin, light gray smoke and a medium burn rate | Cesaroni |
+| C-Star | Bright White | High Specific Impulse (Isp) and performance with a bright flame based on the Space Shuttle's SRBs | Cesaroni |
+| Green | Green | Distinct green flame with thin white smoke | Cesaroni |
+| Imax | Greenish-Orange | Slower, highly efficient burn delivering a 10% to 15% higher total impulse. Initial green shifts to orange | Cesaroni |
+| Mellow | Flameless | Low-audibility, almost flameless burn with faint gray smoke | Cesaroni |
+| Pink | Pink-Violet | Specialized high-performance formulation available in select mid- and high-power reloads | Cesaroni |
+| Red Lightning | Red | Vivid red flame paired with white smoke | Cesaroni |
+| Skidmark | Orange Sparky | Intense orange flame with thick black smoke and hot glowing sparks. Check field rules before using | Cesaroni |
+| Smoky Sam | Charcoal Smoke | Generates dense, thick black charcoal smoke that completely obscures the motor's flame | Cesaroni |
+| Vmax | Wide Orange | Extremely fast burning, high-thrust propellant profile. Slightly lower total impulse | Cesaroni |
+| White | White | Bright white flame with a standard medium burn profile | Cesaroni |
+| White Thunder | Bright White / High Thrust | Bright white flame with light gray smoke and a rapid, aggressive burn rate | Cesaroni |
+| Loki White | White | Bright white flame with moderate light smoke | Loki Research |
+| Loki Red | Red | Vivid red flame with light smoke | Loki Research |
+| Loki Blue | Blue | Intense, translucent blue flame with minimal smoke | Loki Research |
+| Ice Blue | White-Blue | A hybrid formulation featuring a bright white-blue flame | Loki Research |
+| Loki Cocktail | Red/Blue | A dual-colored formulation producing a unique combination of red and blue flame elements | Loki Research |
+| Spitfire | Sparky | Dense sparks with thick dark smoke; a heavy "sparky" formulation | Loki Research |
+| Blue Baboon | Blue | Vibrant blue flame with minimal smoke | AMW (Animal Motor Works) |
+| Green Gorilla | Green | Deep green flame utilizing excited metal ions for color | AMW (Animal Motor Works) |
+| Red Rhino | Red | Bright red flame with white smoke | AMW (Animal Motor Works) |
+| White Wolf | White | Clean, bright white flame with a heavy thrust profile | AMW (Animal Motor Works) |
+| Skidmark | Sparky | Thick black smoke and a massive shower of bright titanium sparks. Check field rules before using | AMW (Animal Motor Works) |
+| Scalded Tiger | Yellow-Orange | Aggressive, high-thrust propellant with a rapid burn time and bright flame | AMW (Animal Motor Works) |
+| Super Tiger | Yellow-Orange | High-performance, fast-burning yellow flame profile | AMW (Animal Motor Works) 
 
 ## Experimental Motor Making
 After having successfully obtained a Tripoli L2 certification, members are allowed to make experimental and research motors. These motors can be made with a variety of propellants, and include solids, hybrid, and liquid fuels. 
@@ -53,4 +95,4 @@ Both hybrids and liquids are required by the Tripoli Unified Safety Code to use 
 
 
 *Created by Mads G.*
-*Last Edited by Mads G. on 10/28/26*
+*Last Edited by Mads G. on 10/29/26*
