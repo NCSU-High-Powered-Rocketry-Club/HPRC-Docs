@@ -10,7 +10,7 @@ If you are not a member of NC State HPRC, still welcome! I hope that you can fin
 
 A high power rocket by definition is any rocket flying on a motor with either:  
     A) An impulse greater than 160 Ns.  
-    B) An average thrust greater than 100 N.  
+    B) An average thrust greater than 80 N.  
 
 However, there is a lot more to high-powered rockets than just this. As touched upon above, there are 3 certification levels which are required for buying motors above certain impulse thresholds. 
 
