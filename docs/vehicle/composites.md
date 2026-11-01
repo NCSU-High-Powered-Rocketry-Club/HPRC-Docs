@@ -13,7 +13,7 @@ Carbon fiber is generally about 30 % stronger for the same length, so it is desi
 A flat plate is the simplest layup to make. A flat plate can be made using just the fiber material, or it can be a composite sandwich using some form of core material, such as balsa wood or honeycomb nomex. The flat plate process can be used for both bulkhead and fin layups.
 
 ![Core Material](CompositesPictures/CoreMaterial.jpg)
-*An example of a fin core using honeycomb nomex*
+*An example of a fin core using honeycomb nomex.*
 
 In HPRC, we like to pull vacuum on our composites for extra compression, but if you do not have the equipment, heavy weights or other items can be used to apply compression instead. 
 
