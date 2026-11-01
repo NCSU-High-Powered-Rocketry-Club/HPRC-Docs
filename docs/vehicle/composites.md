@@ -73,3 +73,8 @@ Since you can't easily cover the mold using mylar, other materials have to be us
 ![Example of compression mold](CompositesPictures/CompressionMold.jpg)
 *This is an example of a compression mold. Below is the same mold in vacuum.*
 ![Compression mold in vaccum](CompositesPictures/CompressionMoldVacuum.jpg)
+
+## Epoxy
+
+*Created by Mads G.*
+*Last Edited by Mads G. on 10/31/26*
