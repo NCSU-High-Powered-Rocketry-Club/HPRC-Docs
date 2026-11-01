@@ -1,6 +1,5 @@
 # Deployment
 
-Content coming soon.
 
 ## Motor Ejection 
 
@@ -19,3 +18,6 @@ An alteration of DSDD, where instead of having a forward section, the nosecone i
 ## Single Separation Dual Deploy (SSDD)
 
 This is yet another version of dual deploy. SSDD is typically used for smaller, higher performance rockets, where the weight of the rocket matters. As the name suggests, there is only one separation event of the rocket at apogee, and the main parachute is either inhibited from opening using zipties and a cable cutter, or the parachute is reefed. Thus, the second event is a charge allowing the parachute to open. 
+
+*Created by Mads G.*
+*Last Edited by Mads G. on 10/31/26*
