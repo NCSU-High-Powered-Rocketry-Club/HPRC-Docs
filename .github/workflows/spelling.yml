@@ -1,0 +1,25 @@
+name: Spelling
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  spelling:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+
+      - uses: streetsidesoftware/cspell-action@v8
+        with:
+          files: "**/*.md"
+          incremental_files_only: true
+          inline: error
+          strict: true
+          suggestions: true
