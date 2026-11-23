@@ -4,6 +4,8 @@ This repo is for our team related documentation. It uses Zensical. You will need
 
 You can view docs online at https://docs.ncsurocketry.org/.
 
+this is test for splleing mistakesfs HPRC
+
 ## Getting Started
 
 The docs live under the top-level `docs/` folder and are built using **[Zensical](https://zensical.org/)** and managed through **[uv](https://docs.astral.sh/uv/)**.
