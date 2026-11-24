@@ -51,7 +51,7 @@ List of the regulations that govern rockety in the United States (you do NOT nee
     - 49 CFR 172.504(b): If transporting 1001 lbs of rocket motors or more in a vehicle, it needs to be offcially marked as "EXPLOSIVE 1.3"
 
 ## TL;DR
-If you didn't wanna read all that, just know look through the Tripoli Safety Code and only launch at official launches.
+If you didn't wanna read all that, just know to look through the Tripoli Safety Code and only launch at official launches.
 
 ---
 *Created by Aidan M.*
